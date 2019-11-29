@@ -1,0 +1,63 @@
+---
+
+port: 4000 
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore,archive]
+permalink: /:title ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+highlighter: rouge
+#baseurl
+
+
+### content configuration ###
+title: Brainhack Warsaw 2019
+keywords: brainhack, hackaton, neuroscience, warsaw, cognitive science, fMRI, modelling, simulations, open science
+description: Bring your ideas on open, reproducible neuroscience related projects to Brainhack Warsaw 2019! Brainhack Warsaw is an official satellite event for Aspects of Neuroscience conference.
+#source_link:
+#favicon: favicon.png?
+url: https://brainhackwarsaw.github.io
+#baseurl: /brainhackwarsaw
+#touch_icon:
+google_analytics_key: UA-104097157-1
+twitter_description: Participant registration for the Brainhack Warsaw 2019 is now open!
+
+
+### template colors, used site-wide via css ###
+
+colors:
+
+  main_white: '#ffffff'
+  main_gray: '#37334a'
+  main_yellow: '#f8e71c' #'#ffef34'
+  aongreen: '#1C7439'
+  white:     '#eee'
+  darkblue: '#000060'
+### flat  design colors from https://www.materialui.co/flatuicolors
+  turquoise_: '#05a7a1' #'#0f9e9e'
+  emerald   : '#00cb87'
+  peteriver : '#3498db'
+  amethyst  : '#9215a5' #'#9768c6'
+  wetasphalt : '#34495e'
+  red: '#ff1f3e'
+  light_green: '#c0fff0'
+  light_yellow: '#ffffcc'
+  fuchsia: '#b20077' #'#ff5eb1'
+
+  cyan: '#2f8dbc' #'#24a7ea'
+  cobalt: '#355068' #'#586dc6'
+### choose matarial design colors from http://materialuicolors.co/
+
+
+kramdown:
+  auto_ids:  false
+
+sass:
+  sass_dir: stylesheets/_sass/
+
+theme: jekyll-theme-merlot

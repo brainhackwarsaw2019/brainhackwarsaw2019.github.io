@@ -1,0 +1,1 @@
+ <i class="fa fa-angle-left" ></i><i class="fa fa-angle-right" ></i>  by [Karolina Baranowska](#catolina) [Daniel Borek](#danieltomasz)  [Aleksander Molak](#AlxdrMlk) on [SinglePaged theme](https://github.com/t413/SinglePaged)

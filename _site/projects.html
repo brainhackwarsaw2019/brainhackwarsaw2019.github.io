@@ -1,0 +1,414 @@
+<h1>Projects</h1>
+
+<!-- ### **The submission of projects is officially closed.**
+Now we are waiting for an announcement which of the projects we have submitted this year will be fulfilled.
+-->
+
+<!--
+### **The call for project proposals is now OPEN**.
+
+### Form and other necessary information for submitting projects is available [here](https://docs.google.com/document/d/1V_KD53onGPOw6Z1454u-YV9CkoKOSGQLZEA5QeQtP2w/edit#)
+
+The proposals can include various forms of a group activity, e.g., data analysis, app development, a discussion club on a particular topic, developing a software etc. The organizers will provide a few openly available datasets to the project authors, but developing projects using private datasets is also welcome.
+
+**A project proposal should contain the following points:**
+1. a title,
+2. a list of authors / mentors / supervisors,
+3. an abstract,
+4. a list of 1-5 key papers / online materials summarising the subject (which the participants should become familiar with before starting the project),
+5. a list of requirements for taking part in the project (education level / English level / programming language required),
+6. a maximal and minimal number of participants on the project,
+7. what participants gain / learn from the project?,
+8. can the project be extended to a peer-reviewed paper if the results are promising?
+--->
+
+<hr />
+<h2><a id="project1"></a> Project 1: Misfolded protein spreading on brain connectome</h2>
+
+<h4>Authors: Alessandro Crimi, PhD<sup>1</sup> <a href="mailto:alessandro.crimi@usz.ch"><i class="fa fa-envelope"></i></a>  / Eleanna Kara <sup>2</sup></h4>
+
+<ol>
+  <li>University hospital of Zurcih, Switzerland</li>
+  <li>Neuropathology resident at UniversitätsSpital Zürich, Switzerland</li>
+</ol>
+
+<p><strong>Abstract</strong>
+Connectomics have been used so far to look for quantifying global and local differences in the functional or structural brain networks [1], or alternatively, to simulate/study brain hemodynamics [2] . Very few studies have used connectomes to investigate the spreading of misfolded proteins which is at the basis of Parkinson’s (PD) and Alzheimer’s disease (AD) [3,4].
+It is believed that diseases as AD and PD are spread by misfolded proteins or agents which moves along brain connections (axons and dendrides of the neurons) starting from specific regions to others [5]. For instance, AD has a progression of tau pathology consistently beginning in the entorhinal cortex, the locus coeruleus, and other nearby noradrenergic brainstem nuclei, before spreading to the rest of the limbic system as well as the cacingulate and retrosplenial cortices. While Parkinsons starts from the brainstem and spread to the neocortex [5].
+A previous study investigated this mechanism on connectome comparing simulated tau deposits on connectome to those detected by PET scans specific for Alzheimer’s [3]. In this project, we aim at carrying out a similar study bu t for PD. In particular, we want to simulate deposits/spreading of alpha-syn proceeding via the brain’s anatomic connectivity network.
+We will use human and mice data provided by the supervisors. The main challenge of the project is defining a proper model of spreading along the connectome. Data from the PPMI dataset (https://www.ppmi-info.org/access-data-specimens/) and given by the project supervisors will be given. Those include case (PD patients) and control subjects along with clinical data and genetics.</p>
+
+<p><strong>A list of 1-5 key papers/materials summarising the subject</strong>:</p>
+<ol>
+  <li>Griffa, Alessandra, et al. “Structural connectomics in brain diseases.” Neuroimage 80 (2013): 515-526. https://www.sciencedirect.com/science/article/pii/S1053811913004035</li>
+  <li>Friston, Karl, Rosalyn Moran, and Anil K. Seth. “Analysing connectivity with Granger causality and dynamic causal modelling.” Current opinion in neurobiology 23.2 (2013): 172-178. https://www.sciencedirect.com/science/article/pii/S0959438812001845</li>
+  <li>Iturria-Medina, Yasser, et al. “Epidemic spreading model to characterize misfolded proteins propagation in aging and associated neurodegenerative disorders.” PLoS computational biology 10.11 (2014): e1003956. https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003956</li>
+  <li>Raj, Ashish, Amy Kuceyeski, and Michael Weiner. “A network diffusion model of disease progression in dementia.” Neuron73.6 (2012): 1204-1215. https://www.sciencedirect.com/science/article/pii/S0896627312001353</li>
+  <li>H. Braak et al., “Staging of brain pathology related to sporadic Parkinsons disease,” Neurobiology of aging, vol. 24, no. 2, pp. 197–211, 2003. https://www.sciencedirect.com/science/article/pii/S0197458002000659</li>
+</ol>
+
+<p><strong>A list of requirements for taking part in the project:</strong></p>
+<ul>
+  <li>minimum level of English and basic concept of connectomics,</li>
+  <li>some knowledge of neuropathology and dynamic  models will be appreciated</li>
+  <li>programming skills in Python, Matlab/Octave</li>
+</ul>
+
+<p><strong>A maximal number of participants</strong>: 15</p>
+
+<p><strong>Skills and competences you can learn during the project</strong>:</p>
+<ol>
+  <li>Use connectomes to run simulations,</li>
+  <li>Basic introduction on connectomics</li>
+</ol>
+
+<p><strong>Is there a plan for extending this work to a paper in case the results are promising?</strong> Yes</p>
+
+<hr />
+<p><a id="project2"></a></p>
+<h2>Project 2: Generating fake MRI to enhance Alzheimer’s disease prediction</h2>
+
+<h4>Author: Sebastian  Gabriel Popescu, MPhil<sup>1</sup> <a href="mailto:s.popescu16@imperial.ac.uk"><i class="fa fa-envelope"></i></a></h4>
+
+<ol>
+  <li>Imperial College London, Great Britain</li>
+</ol>
+
+<p><strong>Abstract</strong>
+Alzheimer’s disease (AD), a common form of dementia, occurs most frequently in aged population. More than 30 million people worldwide suffer from AD and, due to the increasing life expectancy, this number is expected to triple by 2050. Because of the dramatic increase in the prevalence of AD, the identification of effective biomarkers for the early diagnosis and treatment of AD in individuals at high risk to develop the disease is crucial. Mild cognitive impairment (MCI) is a transitional stage between age-related cognitive decline and AD, and the earliest clinically detectable stage of progression towards dementia or AD. Despite of many efforts, identifying efficient AD-specific biomarkers for the early diagnosis and prediction of disease progression is still challenging and requires more research. Neuroimaging based algorithms using structural T1 scans have been used to predict conversion from MCI to AD (Moradi, 2015) but there is still room for improvement.</p>
+
+<p>A major problem in classification of Alzheimer’s disease lies in the small datasets available. Hence, in this project our aim is to create synthetic/artificial T1 MRI scans and augment our dataset with the aim to further improve accuracy. Our workflow would involve a two-stage approach, whereby we would first generate fake MRI scans and secondly, we would add them to our existing real MRI scans and perform classification.</p>
+
+<p>In terms of data augmentation techniques, Mixup (Zhang,2017) is a simple method which interpolates MRI scans originating from two different classes to obtain a new MRI scan with a fractional class label. Additionally, Generative Adversarial Networks (Goodfellow, 2014) have been successfully used to generate realistic pictures of celebrities or natural images with promising new developments in the realm of medical imaging (Wolterink, 2018).</p>
+
+<p>Participants will be encouraged to develop their own classification pipeline, for example using Convolutional Neural Networks. Lastly, participants will be asked to consider ways of interpreting the predictions, to help better understand the neuroanatomical features involved in progression from MCI to AD.</p>
+
+<p><strong>A list of 1-5 key papers/materials summarising the subject</strong>:</p>
+<ol>
+  <li>“Generative Adversarial Networks” by Goodfellow,2014</li>
+  <li>“Machine learning framework for early MRI-based Alzheimer’s conversion prediction in MCI subjects” by Moradi et al.,2015</li>
+  <li>“Mixup: Beyond Empirical Risk Minimization” by Zhang et al.,2017</li>
+  <li>“Generative adversarial networks and adversarial methods in biomedical image analysis” by Wolterink et al.,2018</li>
+</ol>
+
+<p><strong>A list of requirements for taking part in the project</strong>:</p>
+<ul>
+  <li>conversational English</li>
+  <li>some experience in Machine Learning (basic understanding of CNNs and GANs)</li>
+  <li>programming skills in Python, Tensorflow or PyTorch”</li>
+</ul>
+
+<p><strong>A maximal number of participants</strong>: 10</p>
+
+<p><strong>Skills and competences you can learn during the project</strong>:</p>
+<ol>
+  <li>Understanding of the structural effects of Alzheimer’s disease on the brain</li>
+  <li>Experience in classification using CNNs or more basic machine learning classifiers</li>
+  <li>Data augmentation skills (Generative Adversarial Networks, MixUp)”</li>
+</ol>
+
+<p><strong>Is there a plan for extending this work to a paper in case the results are promising?</strong> Yes</p>
+
+<hr />
+<p><a id="project3"></a></p>
+<h2>Project 3: Network analysis of the electrical activity of the brain during epileptic seizures</h2>
+
+<h4>Authors: Jarosław Klamut, MSc <sup>1</sup> <a href="mailto:jaroslaw.klamut@fuw.edu.pl"><i class="fa fa-envelope"></i></a> / Mateusz Wiliński</h4>
+
+<ol>
+  <li>Faculty of Physics, University of Warsaw, Poland</li>
+</ol>
+
+<p><strong>Abstract:</strong>
+The recent development in Network Science had a significant impact on many fields of science. Networks proved to be suitable tools in describing a variety of complex systems, brain being one of them. So-called brain networks, based mainly on fMRI or EEG signals, were characterized by a non-trivial hierarchical structure [1]. Interestingly, it was shown that neurological and psychiatric disorders are often accompanied by significant changes in this characteristic structure [2].</p>
+
+<p>Despite initial successes, there is still a number of bottlenecks in the brain networks analysis. In particular, how to properly estimate connections between different parts of the brain? More specifically, how to get rid of bias imposed by volume conduction or active reference electrode? This bias, that affects all signal simultaneously is often referred to as the problem of common sources. It is widely accepted that neuronal synchrony is a good measure of functional integrity in the brain. There are, however, many ways to estimate it. Recent results suggest that methods based on Phase Lag Index are well suited when using EEG data. They were shown to successfully diminish bias from common sources and give better results both for synthetic and real data [3].</p>
+
+<p>Epilepsy is a highly prevalent disorder. 1% of all emergency department visits in USA are caused by epilepsy. In 2004 it resulted in around $ 17 billion of economic costs in Europe, 2 billion in India and $ 1 billion in USA. Yet the brain activity during seizures is still not well explained in the scientific literature. Its connection to brain electrical activity makes it natural to choose EEG as an experimental tool to collect the data suitable for diagnosis. In the project, we will provide with EEG datasets from patients with epilepsy and we will attempt to determine whether the brain network structure changes during epileptic seizures. In order to approach this question, we will use Phase Lag Index based measures. Finally, we would like to determine whether the network characteristics may be more successful in distinguishing or even predicting, different epileptic states, in comparison with classical indicators, such as the signal variance.</p>
+
+<p><strong>A list of 1-6 key papers/materials summarising the subject:</strong></p>
+<ol>
+  <li>Meunier, D., Lambiotte, R., &amp; Bullmore, E. T. (2010). Modular and hierarchically modular organization of brain networks. Frontiers in neuroscience, 4, 200.</li>
+  <li>Stam, C. J. (2014). Modern network science of neurological disorders. Nature Reviews Neuroscience, 15(10), 683.</li>
+  <li>Stam, C. J., Nolte, G., &amp; Daffertshofer, A. (2007). Phase lag index: assessment of functional connectivity from multi channel EEG and MEG with diminished bias from common sources. Human brain mapping, 28(11), 1178-1193.</li>
+  <li>Bullmore, Ed, and Olaf Sporns. “Complex brain networks: graph theoretical analysis of structural and functional systems.” Nature Reviews Neuroscience 10.3 (2009): 186.</li>
+  <li>https://en.wikipedia.org/wiki/Epilepsy and https://en.wikipedia.org/wiki/Electroencephalography</li>
+  <li>Scheffer, Marten, et al. “Early-warning signals for critical transitions.” Nature 461.7260 (2009): 53.</li>
+</ol>
+
+<p><strong>A list of requirements for taking part in the project:</strong></p>
+<ul>
+  <li>Programming in Python</li>
+  <li>English (reading, writing)</li>
+  <li>BSc program, or higher</li>
+  <li>Bring computer</li>
+</ul>
+
+<p><strong>A maximal number of participants:</strong> 6</p>
+
+<p><strong>Skills and competences to be acquired during the project:</strong></p>
+<ol>
+  <li>Team work (programming and solving problems in parallel)</li>
+  <li>Presenting scientific results (writing paragraphs, creating figures etc.)</li>
+  <li>Data preprocessing</li>
+</ol>
+
+<p><strong>Is there a plan for extending this work to a paper in case the results are promising?</strong> Not sure</p>
+
+<hr />
+<p><a id="project4"></a></p>
+<h2>Project 4: Deep Frankenstein: dissecting and sewing artificial neural networks</h2>
+
+<h4>Authors: Piotr Migdał, PhD<sup>1</sup> <a href="mailto:pmigdal@gmail.com"><i class="fa fa-envelope"></i></a>  / Katarzyna Kańska <sup>2</sup></h4>
+
+<ol>
+  <li>p.migdal.pl</li>
+  <li>Faculty of Mathematics, Informatics, and Mechanics, University of Warsaw, Poland</li>
+</ol>
+
+<p><strong>Abstract:</strong>
+Convolutional neural networks are the state-of-the-art solution for image classification. They are able to recognize images at near-human (or occasionally: super-human) level. Their basic units are very different from the biological ones. Each layer is an array, for processing we use convolutions and matrix multiplications, and for gating - simple mathematical functions. Yet, the global architecture of local, hierarchical processing was inspired by mammalian visual cortex.</p>
+
+<p>In this project we are going to explore which kind of information is being processed. We will try dissecting a network to see if a subset of network is able to recognize an image. We will try to see if different neural ImageNet architecture (e.g. VGG, ResNet, Inception, etc) “see” similar features.</p>
+
+<p>And, in the absence of any ethics commission for artificial neural networks, we will cut two networks, sew them, and see is this frankensteinian model is able to recognize images.</p>
+
+<p><img src="http://0.0.0.0:4000/img/projects/project4.png?style=centerme" alt="test image size" class="img-responsive" height="80%" width="80%" align="center" /></p>
+
+<p><strong>A list of 1-5 key papers/materials summarising the subject:</strong></p>
+<ol>
+  <li>Chris Olah et al., “Feature Visualization”, Distill, https://distill.pub/2017/feature-visualization/</li>
+  <li>Jason Yosinski et al., “How transferable are features in deep neural networks?”, https://arxiv.org/abs/1411.1792</li>
+  <li>Radoslaw Martin Cichy et al., “Comparison of deep neural networks to spatio-temporal cortical dynamics of human visual object recognition reveals hierarchical correspondence”, https://www.nature.com/articles/srep27755</li>
+  <li>Daniel L. K. Yamins et al., “Performance-optimized hierarchical models predict neural responses in higher visual cortex”, https://www.pnas.org/content/111/23/8619</li>
+</ol>
+
+<p><strong>A list of requirements for taking part in the project:</strong></p>
+<ul>
+  <li>VERY, VERY IMPORTANT: if you do not get familiar with it, you will not be allowed into the project: https://deepsense.ai/deep-learning-hands-on-image-classification/</li>
+  <li>communicative English,</li>
+  <li>bring computer</li>
+</ul>
+
+<p><strong>Skills and competences to be acquired during the project:</strong></p>
+<ul>
+  <li>Insight into the inner workings of deep learning (artificial neural networks) and analogies with biological image processing</li>
+</ul>
+
+<p><strong>A maximal number of participants:</strong> 10</p>
+
+<p><strong>Is there a plan for extending this work to a paper in case the results are promising?</strong> yes</p>
+
+<hr />
+<p><a id="project5"></a></p>
+<h2>Project 5: Tackling the ABCD Neurocognitive Prediction Challenge</h2>
+
+<h4>Authors: Hanna Nowicka <sup>1</sup> <a href="mailto:hn.nowicka@gmail.com"><i class="fa fa-envelope"></i></a></h4>
+
+<p>1.Oxford Centre for Functional MRI of the Brain (FMRIB), Wellcome Centre for Integrative Neuroimaging (WIN), University of Oxford, United Kingdom</p>
+
+<p><strong>Abstract:</strong>
+The objective of the project is to propose the method for predicting fluid intelligence in children from the T1-weighted MRI images. Work will most likely consist of data preprocessing, dimensionality reduction and fitting a regression model.
+First idea will be to apply methods like PCA for exploratory analysis and VAEs for nonlinear dimensionality reduction. Then we will use the space from VAEs to gaussian process regression and test different kernels. Of course, other approaches are also possible, depending on the preliminary results and the interest of the team.
+If successful, the aim is to submit the method to the ABCD Neurocognitive Prediction Challenge which is hold in conjugation with MICCAI 2019 conference. Preprocessed data is provided by the challenge organisers (requires registration in advance). More details about the problem and the data are available at: https://sibis.sri.com/abcd-np-challenge/ .</p>
+
+<p><strong>A list of 1-5 key papers/materials summarising the subject:</strong></p>
+<ol>
+  <li>Challenge website: https://sibis.sri.com/abcd-np-challenge/  (information about the challenge and how to register to access the data)</li>
+  <li>Details about the data processing performed: https://www.biorxiv.org/content/early/2018/11/04/457739</li>
+  <li>‘Introduction to Neuroimaging Analysis’ – Oxford Neuroimaging Primers, Mark Jenkinson and Michael Chappell, Oxford University Press, 2017</li>
+  <li>Some read about fluid intelligence</li>
+</ol>
+
+<p><strong>A list of requirements for taking part in the project:</strong></p>
+<ul>
+  <li>IMPORTANT: Registration to access the data prior to the hackathon is strictly required. Sadly, we cannot allow anyone without the DUC approval to work with the data (and it might take few days to obtain the access as it requires the institution support) so please do that in advance, if interested in taking part in the project!</li>
+  <li>English skills good enough to communicate with international team.</li>
+  <li>At least basic Python skills.</li>
+</ul>
+
+<p><strong>A maximal number of participants on the project:</strong> 6</p>
+
+<p><strong>Skills and competences you can learn during the project:</strong>
+The main gain from the project would be having a submission to the MICCAI challenge.
+Hopefully, we can get group with varied skills and learn from each other skills like: basics of structural brain MRI processing and interpretation, data science and visualisation, machine learning in Python.</p>
+
+<p><strong>Is there a plan for extending this work to a paper in case the results are promising?</strong> Not sure</p>
+
+<hr />
+<p><a id="project6"></a></p>
+<h2>Project 6: Multidimensionality problem in passive BCI for game control</h2>
+
+<h4>Authors: Maciej Rudziński <sup>1</sup> <a href="mailto:rudzinskimaciej@gmail.com"><i class="fa fa-envelope"></i></a> /Adrian Elczewski</h4>
+
+<p>1.BrainAttach; Brain Tracking</p>
+
+<p><strong>Abstract:</strong>
+In BCI, the environment is controlled by users through listening to active mental commands that need active effort and learning process. In this project, we are proposing a different paradigm where BCI algorithms listen to well-defined passive bottom-up processes like emotions and attention to choose/guess user preferred action. This approach is similar to Flying Mollusk work but we are proposing its further development and more specific emotions indicators as a starting point.
+We are providing</p>
+<ul>
+  <li>2 EEG setups with 2 channels (5 electrodes) and 1k Hz sampling</li>
+  <li>Web service that:
+    <ol>
+      <li>Cleans signal and removes artifacts</li>
+      <li>Converts signal into emotions (BIS-BAS*) and attention indicators</li>
+      <li>Is integrated to the provided game for ease of work</li>
+    </ol>
+  </li>
+  <li>Short lecture about BIS-BAS</li>
+  <li>Short lecture on signal quality and cleaning methods</li>
+  <li>Introduction to the problem of multidimensionality and timescales, in the use of
+emotions, for controlling (or assisting) games and devices</li>
+  <li>Presentation of sample Python game reacting to emotions (cannon) and how to
+use indicator e.g shooting on BAS</li>
+  <li>Walk through Python game code http://www.grantjenks.com/docs/freegames/</li>
+  <li>Help with development, expanding and optimizing parameters (The “problem of
+multidimensionality and timescales”)</li>
+  <li>Brains tournament in cannon between teams (if time permits)</li>
+</ul>
+
+<p><strong>A list of 1-5 key papers summarising the subject:</strong></p>
+<ol>
+  <li>http://gamestudies.org/1801/articles/david_melhart</li>
+  <li>http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.96.352&amp;rep=rep1&amp;type=pdf</li>
+  <li>https://www.ted.com/talks/mihaly_csikszentmihalyi_on_flow?language=en</li>
+</ol>
+
+<p><strong>A list of requirements for taking part in the project:</strong></p>
+<ul>
+  <li>English : communicative,</li>
+  <li>Python experience above 1 month of active use,</li>
+  <li>Psychology basic concepts (emotions) would be a plus,</li>
+  <li>ML experience will give you more fun</li>
+</ul>
+
+<p><strong>A maximum number of participants:</strong> 10</p>
+
+<p><strong>What can the participant gain from the project?</strong></p>
+<ol>
+  <li>Transferring/joining knowledge from neuroscience/psychology with practical application in BCI.</li>
+  <li>How to create player aware games.</li>
+  <li>Interpretation of BIS-BAS and Flow concept in real life situation.</li>
+  <li>How attention is linked to emotions.</li>
+</ol>
+
+<p><strong>Is there a plan for extending this work to a peer-reviewed paper in case the results are promising?</strong> Not sure</p>
+
+<hr />
+<p><a id="project7"></a></p>
+<h2>Project 7: Cross-Recurrence Quantification Analysis (cRQA) as a new measure of functional connectivity</h2>
+
+<h4>Authors: Krzysztof Bielski <sup>1</sup> <a href="mailto:k.bielski@nencki.gov.pl"><i class="fa fa-envelope"></i></a> / Joanna Rączaszek-Leonardi <sup>2</sup></h4>
+
+<ol>
+  <li>Nencki Institute of Experimental Biology PAS, Warsaw, Poland</li>
+  <li>Faculty of Psychology, University of Warsaw, Poland</li>
+</ol>
+
+<p><strong>Abstract:</strong>
+The human brain organization might be characterized by two basic properties: the segregation and the integration (Friston, 1994). While the functional segregation describes specialization of the brain areas or networks, the functional integration provides an insight on how information between specialized areas/networks is integrated. This second property is frequently studied by observing brain connectivity patterns. In recent years, one type of connectivity namely functional connectivity has gained a great attention. In fact, actually this concept is not directly associated with biologically-rooted connections (for example, long-range white matter tracts) but rather with the similarity between time-series of BOLD, EEG or other neuroimaging signals. It follows logic: if signals from two brain areas are similar, these two brain regions are involved in processing similar information and thus, they are functionally connected. Most often, such functional connections are assessed with measures like the Pearson correlation. However, relatively smaller number of studies deal with measures directly associated with temporal structures in the data (e.g. mutual information etc.). In our project, we would like to develop a method introduced by Lombardi et al. (2017) for estimating functional connectivity patterns known from the Dynamical Systems Theory - cross Recurrence Quantification Analysis (cRQA). cRQA is a method which find application in analyzing coupling dynamical systems such as social interactions in dyads, interdependence of EEG signals etc. It allows presenting complex interactions in the simple form of a vector of measures describing state-switching properties of time-series. Following observations by Lombardi et al. (2017), we aim to compare obtained connectivity patterns defined by the cRQA with connectivity patterns obtained with the Pearson Correlation. We will use task-fMRI data from procedures testing different cognitive and emotional processes as well as resting-state fMRI data taken from the Human Connectome Project database.</p>
+
+<p><strong>A list of 1-5 key papers summarising the subject:</strong></p>
+<ol>
+  <li>Lombardi, A., Tangaro, S., Bellotti, R., Bertolino, A., Blasi, G., Pergola, G., … Guaragnella, C. (2017). A Novel Synchronization-Based Approach for Functional Connectivity Analysis. Complexity, 2017, 1–12. https://doi.org/10.1155/2017/7190758</li>
+  <li>Marwan, N., &amp; Webber, C. L. (2015). Mathematical and Computational Foundations of Recurrence Quantifications. In C. L. Webber, &amp; N. Marwan (Eds.), Recurrence Quantification Analysis: Theory and Best Practices. Cham: Springer International Publishing. https://doi.org/10.1007/978-3-319-07155-8</li>
+  <li>Bastos, A. M., &amp; Schoffelen, J.-M. (2016). A Tutorial Review of Functional Connectivity Analysis Methods and Their Interpretational Pitfalls. Frontiers in Systems Neuroscience, 9(January), 1–23. https://doi.org/10.3389/fnsys.2015.00175</li>
+</ol>
+
+<p><strong>A list of requirements for taking part in the project:</strong></p>
+<ul>
+  <li>Students from Bachelor degree level or higher</li>
+  <li>Communicative English</li>
+  <li>Basic programming skills in Python and Matlab</li>
+</ul>
+
+<p><strong>Maximum number of participants:</strong> 6</p>
+
+<p><strong>What can the participant gain from the project?</strong></p>
+<ol>
+  <li>Cooperation in small team</li>
+  <li>Knowledge about applying Dynamical Systems Theory to neuroimaging data</li>
+  <li>Knowledge about analysis of functional connectivity</li>
+</ol>
+
+<p><strong>Is there a plan for extending this work to a peer-reviewed paper in case the results are promising?</strong>
+Yes</p>
+
+<hr />
+<p><a id="project8"></a></p>
+<h2>Project 8: EMG-based desktop controlling</h2>
+
+<h4>Authors: Paweł Pierzchlewicz <sup>1</sup> <a href="mailto:p.pierzchlewic@student.uw.edu.pl"><i class="fa fa-envelope"></i></a></h4>
+
+<ol>
+  <li>University of Warsaw, Faculty of Physics, Poland</li>
+</ol>
+
+<p><strong>Abstract:</strong>
+The daily usage of our computers can become daunting at times: we spend our days slouched by the keyboard. What if we could create a method for controlling the computer using gestures?
+The idea is to create a prototype for a wearable Human-Computer Interface (HCI) based on electromyography (EMG) signals. We will start off by gathering training data. Later through the use of Barachant’s Minimum Distance to Mean (MDM) [https://hal.archives-ouvertes.fr/file/index/docid/681328/filename/Barachant_tbme_final.pdf] algorithm we will attempt to classify some simple gestures. This will be handled by a raspberry pi if possible. Finally, a client on a target remote computer will capture the determined gestures and map them into useful actions like opening the browser etc.</p>
+
+<p>This will require certain tasks to be performed: gathering of learning data, creating a classification model, building a client app to map the classified action.</p>
+
+<p><strong>A list of 1-5 key papers / online materials summarising the subject:</strong></p>
+<ol>
+  <li>https://hal.archives-ouvertes.fr/file/index/docid/681328/filename/Barachant_tbme_final.pdf,</li>
+  <li>https://ieeexplore.ieee.org/abstract/document/1570513</li>
+</ol>
+
+<p><strong>A List of requirements for taking part in the project:</strong></p>
+<ul>
+  <li>Comfortable with python,</li>
+  <li>English good enough to read code documentation and some research articles,</li>
+  <li>Signal processing would be a plus</li>
+</ul>
+
+<p><strong>Maximum number of participants:</strong> 10</p>
+
+<p><strong>What participants gain/learn from this  project:</strong>
+They can learn an interesting method for signal analysis.
+Can gain experience with biosignal experimental setups.</p>
+
+<p><strong>Is there a plan for extending this work to a peer-reviewed paper in case the results are promising?</strong> Yes</p>
+
+<hr />
+<p><a id="project9"></a></p>
+<h2>Project 9: Mapping the state of modern psychology  through the  public online activity of the scientists</h2>
+
+<h4>Authors: Daniel Borek <sup>1</sup> <a href="mailto:p.pierzchlewic@student.uw.edu.pl"><i class="fa fa-envelope"></i></a></h4>
+
+<ol>
+  <li>Department of Data Analysis, Faculty of Psychology and Educational Sciences, Ghent University, Ghent, Belgium</li>
+</ol>
+
+<p><strong>Abstract:</strong>
+Social media are one of the most important ways of share ideas and information in modern world. Many cognitive scientists, psychologists, open science advocates are users of Twitter and  other social networks as well. Many  of the ideas  shaping modern psychology are disseminated parallel to journal publishing through the online discussion between scientists.</p>
+
+<p>This project aims to map the relationships between different members of the related communities and how they influence and share ideas between each other. Is it possible to map the structure of the field and “hot” topics using mostly Twitter data? How the information about publications spread? What define that the paper will become popular(apart scientific merit)? These questions are specially relevant for disciplines such as history and philosophy of science (HPS) trying to map development of scientific ideas through history. These questions are also important for researchers, who want to get informed and share their research to others in the most effective way.
+In this project, we start from  gathering and preprocessing  the data from Twitter (possible problems could involve limitations imposed on downloading  data from service), process, analyze and  try to visualize using open general languages like R or Python but also Gephi and others.
+The simplest analysis will be mapping connections (“following relation”)  between scientist-users from different sub-disciplines using  some simple graph theoretical measures.
+The  further direction of analysis of interactions of the users will depends on availability of the data.
+The project  description soon be accompanied  by small demo, showing one of possible directions of the analysis.
+Other ideas how  to analyse scientist public online presence are also welcome.</p>
+
+<p><strong>A list of 1-6 key papers / online materials summarising the subject:</strong></p>
+<ol>
+  <li>Example of mapping the field structure using published papers  https://homepage.univie.ac.at/noichlm94/posts/structure-of-recent-philosophy-ii/</li>
+  <li>Example of mapping the networks of economist on twitter</li>
+  <li>https://io.mongeau.net/repec-twitter-network/?fbclid=IwAR0Z07I_3FmGjTofeXa1omEACdxdcfHlxUE44J-W_yjLx7WWFBCvXMXUDjs</li>
+  <li>Downloading  tweets: http://social-metrics.org/downloading-tweets-by-a-list-of-users-take2/</li>
+  <li>Similar analyses in  humanities: http://journalofdigitalhumanities.org/1-3/the-impact-of-social-media-on-the-dissemination-of-research-by-melissa-terras/
+https://arxiv.org/pdf/1807.05571.pdf</li>
+  <li>How to make a graph of  twitter followers: https://github.com/alumbreras/twitter-followers-graph</li>
+</ol>
+
+<p><strong>A List of requirements for taking part in the project:</strong></p>
+<ul>
+  <li>BSc program, or higher</li>
+  <li>English: good, not necessarily proficient</li>
+  <li>Good Python/R programming skills and basic familiarity with machine learning</li>
+</ul>
+
+<p><strong>Maximum number of participants:</strong> 12</p>
+
+<p><strong>Is there a plan for extending this work to a peer-reviewed paper in case the results are promising?</strong> Yes</p>
